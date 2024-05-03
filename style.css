@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+}
+
+.contentbox {
+    width: 600px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+}
+
+table.tbl {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.tbl tr td {
+    border: 1px solid gray;
+    padding: 4px 10px;
+}
+
+table.tbl tr:first-child {
+    font-weight: bold;
+}
